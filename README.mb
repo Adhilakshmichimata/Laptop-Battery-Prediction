@@ -1,0 +1,53 @@
+# 🔋 Laptop Battery Health Prediction
+
+## 📌 Project Overview
+
+This Machine Learning project predicts the **battery health percentage of a laptop** based on usage patterns, system details, and charging behavior.
+
+The model analyzes features like brand, model year, operating system, usage type, charging cycles, overheating issues, and more to estimate battery health.
+
+---
+
+## 🎯 Problem Statement
+
+To predict the battery health of a laptop based on:
+
+- Brand
+- Model Year
+- Operating System
+- Usage Type
+- Daily Usage Hours
+- Charging Cycles
+- Average Charge Limit (%)
+- Battery Age (Months)
+- Overheating Issues
+- Performance Rating
+
+### ✅ Dependent Variable:
+`battery_health_percent`
+
+### ✅ Independent Variables:
+brand, model_year, os, usage_type, daily_usage_hours, charging_cycles, avg_charge_limit_percent, battery_age_months, overheating_issues, performance_rating
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Seaborn
+- Matplotlib
+- Scikit-learn
+- Joblib
+- Streamlit (for deployment)
+
+---
+
+## 🔄 Machine Learning Workflow
+
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Handling Missing Values
+4. Feature Engineering
+5. Feature Scaling (StandardScaler)
